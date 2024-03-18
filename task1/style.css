@@ -1,0 +1,16 @@
+svg {
+    border: 1.0px solid black;
+
+}
+
+body {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3 {
+    font-size: 32px;
+}

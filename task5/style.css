@@ -1,0 +1,73 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 150px;
+    min-height: 30px;
+    width: 300px;
+    height: 30px;
+    border: 3px solid rgb(61, 92, 107);
+}
+
+button:hover {
+    transition: all .3s;
+    color: wheat;
+}
+
+.btn-send {
+    width: 100px;
+    background-color:  rgb(26, 175, 244);
+    border: none;
+}
+
+.btn-geo {
+    width: 90px;
+    background-color: rgb(26, 175, 244);
+    border: none;
+}
+
+.messages-container {
+    margin: 0 auto;
+    width: 494px;
+    height: 400px;
+    border: 3px solid rgb(61, 92, 107);
+    overflow-y: scroll;
+}
+
+.message {
+    width: fit-content;
+    min-width: 20px;
+    max-width: 360px;
+
+    border: 3px solid  rgb(26, 175, 244);
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 3px 3px 7px 3px;
+
+    overflow-wrap: break-word;
+    text-align: left;
+    background-color: aliceblue;
+}
+
+.right-message {
+    inline-size: fit-content;
+    margin-left: auto;
+    border-color:  rgb(26, 175, 244);
+}
+
+.error-message {
+    background-color: orangered;
+    border-color: black;
+    color: white;
+}
+
+.start-corr {
+    font-size: 18px;
+    color: black;
+    margin-left: 180px;
+}
